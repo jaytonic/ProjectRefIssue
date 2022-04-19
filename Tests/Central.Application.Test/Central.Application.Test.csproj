@@ -6,6 +6,7 @@
 	  <Nullable>enable</Nullable>
 	  <OutputPath>..\..\Debug\</OutputPath>
 	  <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	  <IsPackable>false</IsPackable>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,6 +19,8 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Src\Central.Application\Central.Application.csproj">
       <CopyLocal>False</CopyLocal>
+		<CopyLocalSatelliteAssemblies>False</CopyLocalSatelliteAssemblies>
+		<Private>False</Private>
     </ProjectReference>
   </ItemGroup>
 
